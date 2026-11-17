@@ -1,0 +1,65 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Tools Mode by 照熙",
+    "zh": "照熙 工具档位"
+  },
+  "description": {
+    "en": "Community Discover index for dsh-tools-mode: runtime tool-set switching that trims the fixed tool-description prefix of every request.",
+    "zh": "dsh-tools-mode 的独立社区索引：运行时收放工具，裁掉每轮请求的固定工具描述前缀。"
+  },
+  "metadata": {
+    "categories": {
+      "context": {
+        "title": {
+          "en": "Context & Tokens",
+          "zh": "上下文与 Token"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-tools-mode",
+      "title": {
+        "en": "Tools Mode",
+        "zh": "工具档位"
+      },
+      "description": {
+        "en": "Runtime tool-set switching: shrink the tool descriptions carried by every request (soft / ling / genius, measured -88.9%).",
+        "zh": "运行时收放工具：按档位裁剪每轮携带的工具描述（软糯 / 灵熙 / 天才，实测 -88.9%）。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlRvb2xzIE1vZGUiPgogIDxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgcng9IjE0IiBmaWxsPSIjMGYxNzJhIi8+CiAgPHJlY3QgeD0iMTQiIHk9IjE4IiB3aWR0aD0iMTYiIGhlaWdodD0iNiIgcng9IjMiIGZpbGw9IiMzOGJkZjgiLz4KICA8cmVjdCB4PSIzNCIgeT0iMTgiIHdpZHRoPSIxNiIgaGVpZ2h0PSI2IiByeD0iMyIgZmlsbD0iIzM4YmRmOCIgb3BhY2l0eT0iMC4zNSIvPgogIDxyZWN0IHg9IjE0IiB5PSIyOSIgd2lkdGg9IjEwIiBoZWlnaHQ9IjYiIHJ4PSIzIiBmaWxsPSIjMzhiZGY4IiBvcGFjaXR5PSIwLjM1Ii8+CiAgPHJlY3QgeD0iMjgiIHk9IjI5IiB3aWR0aD0iMjIiIGhlaWdodD0iNiIgcng9IjMiIGZpbGw9IiMzOGJkZjgiLz4KICA8cmVjdCB4PSIxNCIgeT0iNDAiIHdpZHRoPSIzNiIgaGVpZ2h0PSI2IiByeD0iMyIgZmlsbD0iIzM4YmRmOCIgb3BhY2l0eT0iMC41NSIvPgo8L3N2Zz4K",
+      "author": "zhaoxi-dev",
+      "homepage": "https://github.com/xinteleiya/dsh-tools-mode#readme",
+      "repository": {
+        "url": "https://github.com/xinteleiya/dsh-tools-mode"
+      },
+      "metadata": {
+        "category": "context",
+        "keywords": [
+          "dsh-plugin",
+          "deepseek-harness",
+          "tools",
+          "context",
+          "token",
+          "工具档位",
+          "省token"
+        ]
+      },
+      "dist-tags": {
+        "latest": "0.1.1"
+      },
+      "versions": [
+        {
+          "version": "0.1.1",
+          "publishTimestamp": 1794939081
+        },
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794938764
+        }
+      ]
+    }
+  ]
+}
