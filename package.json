@@ -1,0 +1,33 @@
+{
+  "name": "dsh-tools-mode",
+  "version": "0.1.1",
+  "type": "module",
+  "license": "MIT",
+  "description": "运行时收放工具：按档位裁剪工具描述，省掉每轮固定前缀（实测 -88.9%）。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "tools",
+    "context",
+    "token"
+  ],
+  "exports": {
+    ".": "./index.js",
+    "./examples/blank.js": "./examples/blank.js",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "index.js",
+    "examples/blank.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
