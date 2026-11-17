@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Tools Mode",
+    "description": "Runtime tool set switching: shrink the tool descriptions in the fixed prompt prefix (soft / ling / genius)."
+  }
+}
